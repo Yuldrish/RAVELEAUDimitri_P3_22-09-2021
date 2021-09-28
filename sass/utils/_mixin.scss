@@ -1,3 +1,7 @@
 @mixin box-shadow {
     box-shadow: .25rem .25rem .5rem opacity($color: black .13%);
 }
+
+@mixin police-importante-title {
+    font-family: "shrikhand",sans-serif;
+}
