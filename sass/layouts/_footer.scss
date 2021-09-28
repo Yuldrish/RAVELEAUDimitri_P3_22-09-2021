@@ -2,7 +2,7 @@
     background: $background-footer;
     color: white;
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px;
     &__title {
         @include police-importante-title;
         margin: 30px 40px;
@@ -11,7 +11,7 @@
     &__list {
         list-style-type: none;
         &__li {
-            line-height: 4rem;
+            line-height: 3.5rem;
         }
         &__li a {
             text-decoration: none;
