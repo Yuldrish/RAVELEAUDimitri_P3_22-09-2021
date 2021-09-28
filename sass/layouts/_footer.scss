@@ -1,0 +1,26 @@
+.footer {
+    background: $background-footer;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    &__title {
+        @include police-importante-title;
+        margin: 30px 40px;
+        font-size: 2em;
+    }
+    &__list {
+        list-style-type: none;
+        &__li {
+            line-height: 4rem;
+        }
+        &__li a {
+            text-decoration: none;
+            color: white;
+        }
+        &__li i {
+            width: 15px;
+            height: 15px;
+            margin-right: 35px;
+        }
+    }
+}
