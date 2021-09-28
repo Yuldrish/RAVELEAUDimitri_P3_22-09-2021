@@ -1,1 +1,8 @@
 @import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./layouts/header";
+@import "./layouts/footer";
