@@ -2,16 +2,20 @@
     background: $background-footer;
     color: white;
     width: 100%;
-    padding: 40px 20px;
+    height: 195px;
+    padding: 5px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
     &__title {
         @include police-importante-title;
-        margin: 30px 40px;
-        font-size: 2em;
+        font-size: 1.3em;
     }
     &__list {
         list-style-type: none;
+        padding: unset;
+        margin: unset;
         &__li {
-            line-height: 3.5rem;
+            line-height: 1.8rem;
         }
         &__li a {
             text-decoration: none;
@@ -20,7 +24,7 @@
         &__li i {
             width: 15px;
             height: 15px;
-            margin-right: 35px;
+            margin-right: 10px;
         }
     }
 }
