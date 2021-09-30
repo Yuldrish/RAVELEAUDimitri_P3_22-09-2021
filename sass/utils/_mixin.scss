@@ -1,7 +1,30 @@
 @mixin box-shadow {
-    box-shadow: .25rem .25rem .5rem opacity($color: black .13%);
+    box-shadow: 0 0 .5em;
 }
 
 @mixin police-importante-title {
     font-family: "shrikhand",sans-serif;
+}
+
+@mixin ellipse {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin restauraut-img-home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bloc-radius {
+    border-radius: 12px;
 }
