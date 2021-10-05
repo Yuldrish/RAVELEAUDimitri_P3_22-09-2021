@@ -109,6 +109,7 @@
     @include bloc-radius;
     @include box-shadow;
     margin-bottom: 1.3em;
+    position: relative;
     & a {
       text-decoration: none;
       color: black;
@@ -159,7 +160,9 @@
       }
     }
     &__icon {
-      margin-right: 15px;
+        position: absolute;
+        right: 25px;
+        top: 195px;
       &__heart {
         font-size: 1.8em;
       }
