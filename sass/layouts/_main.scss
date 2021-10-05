@@ -23,11 +23,20 @@
   height: 285px;
   background: $background-grey;
   padding: 20px 35px;
+  @include flex-center;
+  align-items: flex-start;
   &__bloc {
-    max-width: 100%;
-    &__title {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    &__btn {
+        width: 220px;
+        height: 50px;
+        background: $btn-color;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        @include flex-center;
     }
   }
 }
@@ -42,6 +51,7 @@
   }
   &__list {
     padding: unset;
+    margin-left: 12.5px;
     &__li {
       max-width: 100%;
       height: 75px;
