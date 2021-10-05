@@ -169,3 +169,9 @@
     }
   }
 }
+
+/* Rastaurant */
+
+.background_restaurants_img img{
+    @include background-img;
+}
