@@ -1,43 +1,42 @@
 /* HOME */
 
-.search {
+.search__bloc {
+  background: $background-search;
+  max-width: 100%;
+  height: 50px;
+  @include flex-center;
+  box-shadow: 0 10px 5px -7px #cfcfcf inset;
+  font-size: 1.1em;
+  &__icon {
+    margin-right: 5px;
+  }
+  &__barre_search {
+    border: unset;
     background: $background-search;
-    max-width: 100%;
-    height: 50px;
-    @include flex-center;
-    box-shadow: 0 10px 5px -7px #CFCFCF inset;
-    font-size: 1.1em;
-    &__bloc {
-        &__barre_search {
-            border: unset;
-            background: $background-search;
-            font-weight: bold;
-            font-size: 0.9em;
-            width: 140px;
-        }
-    }
+    font-weight: bold;
+    font-size: 0.9em;
+    width: 140px;
+  }
 }
 
-.presentation {
+.presentation__bloc {
   max-width: 100%;
   height: 285px;
   background: $background-grey;
   padding: 20px 35px;
   @include flex-center;
-  align-items: flex-start;
-  &__bloc {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    &__btn {
-        width: 220px;
-        height: 50px;
-        background: $btn-color;
-        color: white;
-        text-decoration: none;
-        border-radius: 50px;
-        @include flex-center;
-    }
+  flex-direction: column;
+  &__title {
+    @include flex-center;
+  }
+  &__btn {
+    width: 220px;
+    height: 50px;
+    background: $btn-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    @include flex-center;
   }
 }
 
@@ -63,6 +62,7 @@
       @include flex-center;
       justify-content: flex-start;
       padding: 0px 30px;
+      z-index: -1;
       &__number {
         width: 25px;
         height: 25px;
@@ -71,7 +71,7 @@
         color: white;
         @include flex-center;
         position: absolute;
-        left: -12.5px;       
+        left: -12.5px;
       }
       &__icon_mobile {
         font-size: 1.25em;
@@ -160,9 +160,9 @@
       }
     }
     &__icon {
-        position: absolute;
-        right: 25px;
-        top: 195px;
+      position: absolute;
+      right: 25px;
+      top: 195px;
       &__heart {
         font-size: 1.8em;
       }
@@ -172,6 +172,61 @@
 
 /* Rastaurant */
 
-.background_restaurants_img img{
-    @include background-img;
+.background_restaurants_img img {
+  @include background-img;
+}
+
+.restaurant_menu {
+  max-width: 100%;
+  border-radius: 35px 35px 0px 0px;
+  background: $background-grey;
+  padding: 20px 15px;
+  margin-top: -50px;
+  position: relative;
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+      @include police-importante-title;
+      font-weight: bold;
+      font-size: 1.7em;
+    }
+    &__icon {
+      font-size: 1.7em;
+      padding-right: 25px;
+      padding-bottom: 10px;
+    }
+  }
+  &__container {
+    height: 100%;
+    &__title {
+      font-weight: unset;
+      font-size: 1em;
+      border-bottom: $tertiary-color solid 3px;
+    }
+    &__list {
+      margin-bottom: 45px;
+      &__dish {
+        background: $background-white;
+        width: 100%;
+        height: 70px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 15px;
+        @include box-shadow;
+      }
+    }
+  }
+  &__bloc_btn {
+    @include flex-center;
+    &__btn {
+      width: 190px;
+      height: 50px;
+      background: $btn-color;
+    }
+  }
 }
