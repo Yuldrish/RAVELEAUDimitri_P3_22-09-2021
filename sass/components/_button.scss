@@ -1,0 +1,16 @@
+.restaurant_menu {
+    &__bloc_btn {
+        @include flex-center;
+        &__btn {
+            width: 190px;
+            height: 50px;
+            border-radius: 50px;
+            background: $btn-color;
+            border: unset;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+    }
+}
