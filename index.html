@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/style.css" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/d5c746b3c2.js"
       crossorigin="anonymous"
@@ -13,17 +13,9 @@
   <body>
     <div class="bloc_page">
       <div class="loader">
-        <div class="loader__container">
-          <div class="loader__item loader__item__one">
-            <div class="loader__item loader__item__two">
-              <div class="loader__item loader__item__three">
-                <img
-                  class="loader__img"
-                  src="./Maquettes Ohmyfood/images/logo/ohmyfood@2x.svg"
-                  alt="logo_loader"
-                />
-              </div>
-            </div>
+        <div class="loader--spinner">
+          <div class="loader--logo">
+            <img src="./Maquettes Ohmyfood/images/logo/ohmyfood@2x.svg" alt="logo OHMYFOOD" />
           </div>
         </div>
       </div>
@@ -33,27 +25,27 @@
       </header>
 
       <main>
-          <div class="search__bloc">
-            <i class="fas fa-map-marker-alt search__bloc__icon"></i>
-            <input
-              type="search"
-              name="loc_city"
-              class="search__bloc__barre_search"
-              placeholder="Paris, Belleville"
-            />
-          </div>
+        <div class="search__bloc">
+          <i class="fas fa-map-marker-alt search__bloc__icon"></i>
+          <input
+            type="search"
+            name="loc_city"
+            class="search__bloc__barre_search"
+            placeholder="Paris, Belleville"
+          />
+        </div>
 
-          <div class="presentation__bloc">
-            <h2 class="presentation__bloc__title">
-              Réservez le menu qui vous convient
-            </h2>
-            <p class="presentation__bloc__info">
-              Découvrez des restaurants d'exeption, séléctionnés par nos soins.
-            </p>
-            <a href="#Resto" class="presentation__bloc__btn"
-              >Explorer nos restaurants</a
-            >
-          </div>
+        <div class="presentation__bloc">
+          <h2 class="presentation__bloc__title">
+            Réservez le menu qui vous convient
+          </h2>
+          <p class="presentation__bloc__info">
+            Découvrez des restaurants d'exeption, séléctionnés par nos soins.
+          </p>
+          <a href="#Resto" class="presentation__bloc__btn"
+            >Explorer nos restaurants</a
+          >
+        </div>
 
         <section class="functioning">
           <h2 class="functioning__title">Fonctionnement</h2>
@@ -109,6 +101,7 @@
             </a>
             <div class="restaurant__def__icon">
               <i class="far fa-heart restaurant__def__icon__heart"></i>
+              <i class="fas fa-heart restaurant__def__icon__heart heart__color"></i>
             </div>
           </div>
           <div class="restaurant__def">
@@ -130,6 +123,7 @@
             </a>
             <div class="restaurant__def__icon">
               <i class="far fa-heart restaurant__def__icon__heart"></i>
+              <i class="fas fa-heart restaurant__def__icon__heart heart__color"></i>
             </div>
           </div>
           <div class="restaurant__def">
@@ -150,6 +144,7 @@
             </a>
             <div class="restaurant__def__icon">
               <i class="far fa-heart restaurant__def__icon__heart"></i>
+              <i class="fas fa-heart restaurant__def__icon__heart heart__color"></i>
             </div>
           </div>
           <div class="restaurant__def">
@@ -170,6 +165,7 @@
             </a>
             <div class="restaurant__def__icon">
               <i class="far fa-heart restaurant__def__icon__heart"></i>
+              <i class="fas fa-heart restaurant__def__icon__heart heart__color"></i>
             </div>
           </div>
         </section>
