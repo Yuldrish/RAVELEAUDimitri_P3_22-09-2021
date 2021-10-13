@@ -1,0 +1,40 @@
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loader 1200ms linear both;
+  animation-delay: 1000ms;
+}
+
+.loader--spinner {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 5px solid $background-grey;
+  border-radius: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 250px;
+    border-top: 5px double $primary-color;
+    border-left: 5px double $secondary-color;
+    border-right: 5px double $tertiary-color;
+    border-bottom: 5px double $primary-color;
+    animation: loader-spinner 1500ms ease infinite;
+  }
+}
+
+.loader--logo img {
+  animation: logo 2500ms both;
+}
