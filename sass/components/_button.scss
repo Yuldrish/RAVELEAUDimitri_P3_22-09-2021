@@ -11,6 +11,11 @@
             font-size: 1em;
             font-weight: bold;
             margin-bottom: 50px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px gray;
+            &:hover {
+                background: $btn-color-hover;
+            }
         }
     }
 }
