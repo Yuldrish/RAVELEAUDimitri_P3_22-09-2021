@@ -296,7 +296,8 @@
       }
     }
     @media only screen and (min-width: 1024px) {
-      min-width: 315px;
+      width: 100%;
+      min-width: 300px;
     }  
   }
 }
@@ -306,5 +307,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    column-gap: 1%;
   }
 }
