@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @keyframes loader {
   0% {
     opacity: 1;
@@ -68,7 +69,7 @@
   }
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
   font-size: 1em;
   margin: unset;
