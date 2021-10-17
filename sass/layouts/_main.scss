@@ -45,11 +45,11 @@
       background: $btn-color-hover;
     }
   }
-  @media only screen and (min-width: 570px) and (max-width: 1024px) {
+  @media screen and (min-width: 570px) and (max-width: 1024px) {
     width: 50%;
     height: 430px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     width: 50%;
     height: 430px;
   }
@@ -112,20 +112,20 @@
       }
     }
   }
-  @media only screen and (min-width: 570px) and (max-width: 1024px) {
+  @media screen and (min-width: 570px) and (max-width: 1024px) {
     width: 50%;
   }
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     width: 50%;
   }
 }
 
 .presentation_and_functioning_placement {
-  @media only screen and (min-width: 570px) and (max-width: 1024px) {
+  @media screen and (min-width: 570px) and (max-width: 1024px) {
     display: flex;
     flex-direction: row;
   }
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     display: flex;
     flex-direction: row;
   }
@@ -205,29 +205,29 @@
         position: absolute;
       }
     }
-    @media only screen and (min-width: 570px) and (max-width: 1024px) {
+    @media screen and (min-width: 570px) and (max-width: 1024px) {
       width: 48%;
     }
-    @media only screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       width: 23.7%;
     }  
   }
-  @media only screen and (min-width: 570px) and (max-width: 1024px) {
+  @media screen and (min-width: 570px) and (max-width: 1024px) {
     height: 100%;
   }
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     height: 100%;
   }  
 }
 
 .restaurant_card_placement {
-  @media only screen and (min-width: 570px) and (max-width: 1024px) {
+  @media screen and (min-width: 570px) and (max-width: 1024px) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 4%;
   }
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     display: flex;
     flex-direction: row;
     column-gap: 1.7%;
@@ -346,7 +346,7 @@
 
       }
     }
-    @media only screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       width: 100%;
       min-width: 300px;
     }  
@@ -354,7 +354,7 @@
 }
 
 .direction_menu {
-  @media only screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
