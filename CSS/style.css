@@ -194,6 +194,18 @@ body {
 .presentation__bloc__btn:hover {
   background: linear-gradient(190deg, #FF79DA, #9356DC);
 }
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .presentation__bloc {
+    width: 50%;
+    height: 430px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .presentation__bloc {
+    width: 50%;
+    height: 430px;
+  }
+}
 
 .functioning {
   max-width: 100%;
@@ -256,6 +268,29 @@ body {
   margin-left: 15px;
   width: 100%;
   font-weight: bold;
+}
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .functioning {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .functioning {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .presentation_and_functioning_placement {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .presentation_and_functioning_placement {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .restaurant {
@@ -347,6 +382,42 @@ body {
 .restaurant__def__icon__heart {
   font-size: 1.8em;
   position: absolute;
+}
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .restaurant__def {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .restaurant__def {
+    width: 23.7%;
+  }
+}
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .restaurant {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .restaurant {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 1024px) {
+  .restaurant_card_placement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 4%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .restaurant_card_placement {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.7%;
+  }
 }
 
 .heart__color {
