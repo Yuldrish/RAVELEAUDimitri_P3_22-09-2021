@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "shrikhand";
-  src: url(../../police/Shrikhand-Regular.otf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @keyframes loader {
   0% {
     opacity: 1;
@@ -91,7 +88,7 @@ body {
   justify-content: center;
   width: 50%;
   height: 50%;
-  font-family: "shrikhand", sans-serif;
+  font-family: "Shrikhand", sans-serif;
 }
 .header__arrow_left {
   font-size: 1.3em;
@@ -113,7 +110,7 @@ body {
   flex-direction: column;
 }
 .footer__title {
-  font-family: "shrikhand", sans-serif;
+  font-family: "Shrikhand", sans-serif;
   font-size: 1.3em;
 }
 .footer__list {
@@ -194,13 +191,13 @@ body {
 .presentation__bloc__btn:hover {
   background: linear-gradient(190deg, #FF79DA, #9356DC);
 }
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .presentation__bloc {
     width: 50%;
     height: 430px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .presentation__bloc {
     width: 50%;
     height: 430px;
@@ -269,24 +266,24 @@ body {
   width: 100%;
   font-weight: bold;
 }
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .functioning {
     width: 50%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .functioning {
     width: 50%;
   }
 }
 
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .presentation_and_functioning_placement {
     display: flex;
     flex-direction: row;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .presentation_and_functioning_placement {
     display: flex;
     flex-direction: row;
@@ -383,28 +380,28 @@ body {
   font-size: 1.8em;
   position: absolute;
 }
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .restaurant__def {
     width: 48%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .restaurant__def {
     width: 23.7%;
   }
 }
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .restaurant {
     height: 100%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .restaurant {
     height: 100%;
   }
 }
 
-@media only screen and (min-width: 570px) and (max-width: 1024px) {
+@media screen and (min-width: 570px) and (max-width: 1024px) {
   .restaurant_card_placement {
     display: flex;
     flex-direction: row;
@@ -412,7 +409,7 @@ body {
     column-gap: 4%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .restaurant_card_placement {
     display: flex;
     flex-direction: row;
@@ -454,7 +451,7 @@ body {
   width: 100%;
 }
 .restaurant_menu__header__title {
-  font-family: "shrikhand", sans-serif;
+  font-family: "Shrikhand", sans-serif;
   font-weight: bold;
   font-size: 1.65em;
 }
@@ -539,14 +536,14 @@ body {
   transform-origin: right;
   flex-shrink: 0;
 }
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .restaurant_menu__container {
     width: 100%;
     min-width: 300px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .direction_menu {
     display: flex;
     flex-direction: row;
