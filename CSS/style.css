@@ -572,7 +572,7 @@ body {
   box-shadow: 2px 2px 5px gray;
 }
 .restaurant_menu__bloc_btn__btn:hover {
-  background: linear-gradient(190deg, #FF79DA, #9356DC);
+  opacity: 0.95;
 }
 
 .loader {

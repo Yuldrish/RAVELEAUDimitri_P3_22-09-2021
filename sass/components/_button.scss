@@ -14,7 +14,7 @@
             cursor: pointer;
             box-shadow: 2px 2px 5px gray;
             &:hover {
-                background: $btn-color-hover;
+                opacity: 0.95;
             }
         }
     }
