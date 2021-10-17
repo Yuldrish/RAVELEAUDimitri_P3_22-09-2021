@@ -32,7 +32,13 @@
   }
 }
 
+// functioning
+
 @keyframes functioning-color {
+  100% {
+    background: $primary-color;
+    opacity: 0.5;
+  }
 }
 
 // heart
@@ -43,5 +49,38 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+//dish
+
+@keyframes dish__bloc {
+  0% {
+    transform: translate(0, 50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes check__bloc {
+  0% {
+    transform: scaleX(0);
+    width: 0px;
+  }
+  100% {
+    transform: scaleX(1);
+    width: 60px;
+  }
+}
+
+@keyframes check__rotation {
+  0% { 
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
   }
 }
