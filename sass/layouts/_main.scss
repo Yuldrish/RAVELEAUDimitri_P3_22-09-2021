@@ -238,8 +238,8 @@
   opacity: 0;
   cursor: pointer;
   background: $heart-color;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
   &:hover {
     animation: heart__color 300ms both;
   }
