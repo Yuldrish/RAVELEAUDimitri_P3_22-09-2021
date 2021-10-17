@@ -380,17 +380,18 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .restaurant_menu__header__title {
   font-family: "shrikhand", sans-serif;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.65em;
 }
 .restaurant_menu__header__icon {
   font-size: 1.7em;
   position: absolute;
-  right: 37px;
-  top: 37px;
+  right: 18px;
+  top: 43.5px;
 }
 .restaurant_menu__container {
   height: 100%;
